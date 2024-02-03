@@ -1,0 +1,80 @@
+<?php
+include("include/connection.php");
+
+if(isset($_POST['type']))
+{
+if($_POST['type']=='mobile'){
+@$mobile=$_POST['mobile'];
+$otp=generateOTP();
+$chkuser=mysqli_query($con,"select * from `tbl_user` where `mobile`='".$mobile."'");
+$userRow=mysqli_num_rows($chkuser);
+if($userRow!=null){
+
+	session_start();
+	unset($_SESSION["acc_mobile"]);
+	unset($_SESSION["acc_otp"]);
+  $_SESSION["acc_mobile"] = $mobile;
+  $_SESSION["acc_otp"] = $otp;
+	
+	
+	
+$fields = array(
+    "variables_values" => $otp,
+    "route" => "otp",
+    "numbers" => $mobile,
+);
+
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL => "https://www.fast2sms.com/dev/bulkV2",
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => "",
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 30,
+  CURLOPT_SSL_VERIFYHOST => 0,
+  CURLOPT_SSL_VERIFYPEER => 0,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => "POST",
+  CURLOPT_POSTFIELDS => json_encode($fields),
+  CURLOPT_HTTPHEADER => array(
+    "authorization: ",
+    "accept: */*",
+    "cache-control: no-cache",
+    "content-type: application/json"
+  ),
+));
+
+$response = curl_exec($curl);
+$err = curl_error($curl);
+
+curl_close($curl);
+
+if ($err) {
+  echo "cURL Error #:" . $err;
+} else {
+echo '1';
+}
+
+
+}else{echo"2";}
+
+}
+if($_POST['type']=='otpval'){
+session_start();
+@$otp=$_POST['otp'];
+$mobile= $_SESSION["acc_mobile"];
+$sessionotp=$_SESSION["acc_otp"];
+
+if(strlen($sessionotp!==$otp))  
+{
+	echo"0";}else{
+		
+$_SESSION["acc_mobilematched"] = $_SESSION["acc_mobile"];
+unset($_SESSION["acc_mobile"]);
+unset($_SESSION["acc_otp"]);
+
+		echo"1";}
+}
+}
+?>

@@ -1,0 +1,7 @@
+[13-Mar-2023 10:11:02 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/colo17/mary.colorbets.site/admin/include/navigation.inc.php on line 21
+[13-Mar-2023 10:11:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/colo17/mary.colorbets.site/admin/include/navigation.inc.php on line 22
+[13-Mar-2023 10:11:02 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/colo17/mary.colorbets.site/admin/include/navigation.inc.php on line 25
+[13-Mar-2023 10:11:02 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/colo17/mary.colorbets.site/admin/include/navigation.inc.php on line 26
+[13-Mar-2023 10:11:02 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/colo17/mary.colorbets.site/admin/include/navigation.inc.php on line 37
+[13-Mar-2023 10:11:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/colo17/mary.colorbets.site/admin/include/navigation.inc.php on line 38
+[13-Mar-2023 10:11:02 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/colo17/mary.colorbets.site/admin/include/navigation.inc.php on line 40
