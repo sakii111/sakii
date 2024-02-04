@@ -1,1 +1,0 @@
-{"result":{"text":"sum from y to x of"},"status":"ok"}

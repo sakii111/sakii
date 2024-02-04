@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)https://lulumalls.co/static/risk.html?type=LuLu%20Malls -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+<meta http-equiv="pragram" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+<style type="text/css" id="vuetify-theme-stylesheet">a { color: #9c27b0; }
+.primary {
+  background-color: #9c27b0 !important;
+  border-color: #9c27b0 !important;
+}
+.primary--text {
+  color: #9c27b0 !important;
+  caret-color: #9c27b0 !important;
+}
+.primary.lighten-5 {
+  background-color: #f3e5f5 !important;
+  border-color: #f3e5f5 !important;
+}
+.primary--text.text--lighten-5 {
+  color: #f3e5f5 !important;
+  caret-color: #f3e5f5 !important;
+}
+.primary.lighten-4 {
+  background-color: #e1bee7 !important;
+  border-color: #e1bee7 !important;
+}
+.primary--text.text--lighten-4 {
+  color: #e1bee7 !important;
+  caret-color: #e1bee7 !important;
+}
+.primary.lighten-3 {
+  background-color: #ce93d8 !important;
+  border-color: #ce93d8 !important;
+}
+.primary--text.text--lighten-3 {
+  color: #ce93d8 !important;
+  caret-color: #ce93d8 !important;
+}
+.primary.lighten-2 {
+  background-color: #ba68c8 !important;
+  border-color: #ba68c8 !important;
+}
+.primary--text.text--lighten-2 {
+  color: #ba68c8 !important;
+  caret-color: #ba68c8 !important;
+}
+.primary.lighten-1 {
+  background-color: #ab47bc !important;
+  border-color: #ab47bc !important;
+}
+.primary--text.text--lighten-1 {
+  color: #ab47bc !important;
+  caret-color: #ab47bc !important;
+}
+.primary.darken-1 {
+  background-color: #8e24aa !important;
+  border-color: #8e24aa !important;
+}
+.primary--text.text--darken-1 {
+  color: #8e24aa !important;
+  caret-color: #8e24aa !important;
+}
+.primary.darken-2 {
+  background-color: #7b1fa2 !important;
+  border-color: #7b1fa2 !important;
+}
+.primary--text.text--darken-2 {
+  color: #7b1fa2 !important;
+  caret-color: #7b1fa2 !important;
+}
+.primary.darken-3 {
+  background-color: #6a1b9a !important;
+  border-color: #6a1b9a !important;
+}
+.primary--text.text--darken-3 {
+  color: #6a1b9a !important;
+  caret-color: #6a1b9a !important;
+}
+.primary.darken-4 {
+  background-color: #4a148c !important;
+  border-color: #4a148c !important;
+}
+.primary--text.text--darken-4 {
+  color: #4a148c !important;
+  caret-color: #4a148c !important;
+}
+.secondary {
+  background-color: #757575 !important;
+  border-color: #757575 !important;
+}
+.secondary--text {
+  color: #757575 !important;
+  caret-color: #757575 !important;
+}
+.secondary.lighten-5 {
+  background-color: #fdfdfd !important;
+  border-color: #fdfdfd !important;
+}
+.secondary--text.text--lighten-5 {
+  color: #fdfdfd !important;
+  caret-color: #fdfdfd !important;
+}
+.secondary.lighten-4 {
+  background-color: #e0e0e0 !important;
+  border-color: #e0e0e0 !important;
+}
+.secondary--text.text--lighten-4 {
+  color: #e0e0e0 !important;
+  caret-color: #e0e0e0 !important;
+}
+.secondary.lighten-3 {
+  background-color: #c4c4c4 !important;
+  border-color: #c4c4c4 !important;
+}
+.secondary--text.text--lighten-3 {
+  color: #c4c4c4 !important;
+  caret-color: #c4c4c4 !important;
+}
+.secondary.lighten-2 {
+  background-color: #a9a9a9 !important;
+  border-color: #a9a9a9 !important;
+}
+.secondary--text.text--lighten-2 {
+  color: #a9a9a9 !important;
+  caret-color: #a9a9a9 !important;
+}
+.secondary.lighten-1 {
+  background-color: #8f8f8f !important;
+  border-color: #8f8f8f !important;
+}
+.secondary--text.text--lighten-1 {
+  color: #8f8f8f !important;
+  caret-color: #8f8f8f !important;
+}
+.secondary.darken-1 {
+  background-color: #5c5c5c !important;
+  border-color: #5c5c5c !important;
+}
+.secondary--text.text--darken-1 {
+  color: #5c5c5c !important;
+  caret-color: #5c5c5c !important;
+}
+.secondary.darken-2 {
+  background-color: #454545 !important;
+  border-color: #454545 !important;
+}
+.secondary--text.text--darken-2 {
+  color: #454545 !important;
+  caret-color: #454545 !important;
+}
+.secondary.darken-3 {
+  background-color: #2f2f2f !important;
+  border-color: #2f2f2f !important;
+}
+.secondary--text.text--darken-3 {
+  color: #2f2f2f !important;
+  caret-color: #2f2f2f !important;
+}
+.secondary.darken-4 {
+  background-color: #1a1a1a !important;
+  border-color: #1a1a1a !important;
+}
+.secondary--text.text--darken-4 {
+  color: #1a1a1a !important;
+  caret-color: #1a1a1a !important;
+}
+.accent {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.accent--text {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.accent.lighten-5 {
+  background-color: #777777 !important;
+  border-color: #777777 !important;
+}
+.accent--text.text--lighten-5 {
+  color: #777777 !important;
+  caret-color: #777777 !important;
+}
+.accent.lighten-4 {
+  background-color: #5e5e5e !important;
+  border-color: #5e5e5e !important;
+}
+.accent--text.text--lighten-4 {
+  color: #5e5e5e !important;
+  caret-color: #5e5e5e !important;
+}
+.accent.lighten-3 {
+  background-color: #474747 !important;
+  border-color: #474747 !important;
+}
+.accent--text.text--lighten-3 {
+  color: #474747 !important;
+  caret-color: #474747 !important;
+}
+.accent.lighten-2 {
+  background-color: #303030 !important;
+  border-color: #303030 !important;
+}
+.accent--text.text--lighten-2 {
+  color: #303030 !important;
+  caret-color: #303030 !important;
+}
+.accent.lighten-1 {
+  background-color: #1b1b1b !important;
+  border-color: #1b1b1b !important;
+}
+.accent--text.text--lighten-1 {
+  color: #1b1b1b !important;
+  caret-color: #1b1b1b !important;
+}
+.accent.darken-1 {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.accent--text.text--darken-1 {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.accent.darken-2 {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.accent--text.text--darken-2 {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.accent.darken-3 {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.accent--text.text--darken-3 {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.accent.darken-4 {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.accent--text.text--darken-4 {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.error {
+  background-color: #ff1744 !important;
+  border-color: #ff1744 !important;
+}
+.error--text {
+  color: #ff1744 !important;
+  caret-color: #ff1744 !important;
+}
+.error.lighten-5 {
+  background-color: #ffc3c3 !important;
+  border-color: #ffc3c3 !important;
+}
+.error--text.text--lighten-5 {
+  color: #ffc3c3 !important;
+  caret-color: #ffc3c3 !important;
+}
+.error.lighten-4 {
+  background-color: #ffa5a8 !important;
+  border-color: #ffa5a8 !important;
+}
+.error--text.text--lighten-4 {
+  color: #ffa5a8 !important;
+  caret-color: #ffa5a8 !important;
+}
+.error.lighten-3 {
+  background-color: #ff868e !important;
+  border-color: #ff868e !important;
+}
+.error--text.text--lighten-3 {
+  color: #ff868e !important;
+  caret-color: #ff868e !important;
+}
+.error.lighten-2 {
+  background-color: #ff6774 !important;
+  border-color: #ff6774 !important;
+}
+.error--text.text--lighten-2 {
+  color: #ff6774 !important;
+  caret-color: #ff6774 !important;
+}
+.error.lighten-1 {
+  background-color: #ff455c !important;
+  border-color: #ff455c !important;
+}
+.error--text.text--lighten-1 {
+  color: #ff455c !important;
+  caret-color: #ff455c !important;
+}
+.error.darken-1 {
+  background-color: #de002e !important;
+  border-color: #de002e !important;
+}
+.error--text.text--darken-1 {
+  color: #de002e !important;
+  caret-color: #de002e !important;
+}
+.error.darken-2 {
+  background-color: #bd0019 !important;
+  border-color: #bd0019 !important;
+}
+.error--text.text--darken-2 {
+  color: #bd0019 !important;
+  caret-color: #bd0019 !important;
+}
+.error.darken-3 {
+  background-color: #9d0001 !important;
+  border-color: #9d0001 !important;
+}
+.error--text.text--darken-3 {
+  color: #9d0001 !important;
+  caret-color: #9d0001 !important;
+}
+.error.darken-4 {
+  background-color: #7d0000 !important;
+  border-color: #7d0000 !important;
+}
+.error--text.text--darken-4 {
+  color: #7d0000 !important;
+  caret-color: #7d0000 !important;
+}
+.info {
+  background-color: #009688 !important;
+  border-color: #009688 !important;
+}
+.info--text {
+  color: #009688 !important;
+  caret-color: #009688 !important;
+}
+.info.lighten-5 {
+  background-color: #b1ffff !important;
+  border-color: #b1ffff !important;
+}
+.info--text.text--lighten-5 {
+  color: #b1ffff !important;
+  caret-color: #b1ffff !important;
+}
+.info.lighten-4 {
+  background-color: #94fff5 !important;
+  border-color: #94fff5 !important;
+}
+.info--text.text--lighten-4 {
+  color: #94fff5 !important;
+  caret-color: #94fff5 !important;
+}
+.info.lighten-3 {
+  background-color: #76e9d9 !important;
+  border-color: #76e9d9 !important;
+}
+.info--text.text--lighten-3 {
+  color: #76e9d9 !important;
+  caret-color: #76e9d9 !important;
+}
+.info.lighten-2 {
+  background-color: #58cdbd !important;
+  border-color: #58cdbd !important;
+}
+.info--text.text--lighten-2 {
+  color: #58cdbd !important;
+  caret-color: #58cdbd !important;
+}
+.info.lighten-1 {
+  background-color: #37b1a2 !important;
+  border-color: #37b1a2 !important;
+}
+.info--text.text--lighten-1 {
+  color: #37b1a2 !important;
+  caret-color: #37b1a2 !important;
+}
+.info.darken-1 {
+  background-color: #007c6f !important;
+  border-color: #007c6f !important;
+}
+.info--text.text--darken-1 {
+  color: #007c6f !important;
+  caret-color: #007c6f !important;
+}
+.info.darken-2 {
+  background-color: #006256 !important;
+  border-color: #006256 !important;
+}
+.info--text.text--darken-2 {
+  color: #006256 !important;
+  caret-color: #006256 !important;
+}
+.info.darken-3 {
+  background-color: #004a3f !important;
+  border-color: #004a3f !important;
+}
+.info--text.text--darken-3 {
+  color: #004a3f !important;
+  caret-color: #004a3f !important;
+}
+.info.darken-4 {
+  background-color: #003229 !important;
+  border-color: #003229 !important;
+}
+.info--text.text--darken-4 {
+  color: #003229 !important;
+  caret-color: #003229 !important;
+}
+.success {
+  background-color: #4caf50 !important;
+  border-color: #4caf50 !important;
+}
+.success--text {
+  color: #4caf50 !important;
+  caret-color: #4caf50 !important;
+}
+.success.lighten-5 {
+  background-color: #dcffd6 !important;
+  border-color: #dcffd6 !important;
+}
+.success--text.text--lighten-5 {
+  color: #dcffd6 !important;
+  caret-color: #dcffd6 !important;
+}
+.success.lighten-4 {
+  background-color: #beffba !important;
+  border-color: #beffba !important;
+}
+.success--text.text--lighten-4 {
+  color: #beffba !important;
+  caret-color: #beffba !important;
+}
+.success.lighten-3 {
+  background-color: #a2ff9e !important;
+  border-color: #a2ff9e !important;
+}
+.success--text.text--lighten-3 {
+  color: #a2ff9e !important;
+  caret-color: #a2ff9e !important;
+}
+.success.lighten-2 {
+  background-color: #85e783 !important;
+  border-color: #85e783 !important;
+}
+.success--text.text--lighten-2 {
+  color: #85e783 !important;
+  caret-color: #85e783 !important;
+}
+.success.lighten-1 {
+  background-color: #69cb69 !important;
+  border-color: #69cb69 !important;
+}
+.success--text.text--lighten-1 {
+  color: #69cb69 !important;
+  caret-color: #69cb69 !important;
+}
+.success.darken-1 {
+  background-color: #2d9437 !important;
+  border-color: #2d9437 !important;
+}
+.success--text.text--darken-1 {
+  color: #2d9437 !important;
+  caret-color: #2d9437 !important;
+}
+.success.darken-2 {
+  background-color: #00791e !important;
+  border-color: #00791e !important;
+}
+.success--text.text--darken-2 {
+  color: #00791e !important;
+  caret-color: #00791e !important;
+}
+.success.darken-3 {
+  background-color: #006000 !important;
+  border-color: #006000 !important;
+}
+.success--text.text--darken-3 {
+  color: #006000 !important;
+  caret-color: #006000 !important;
+}
+.success.darken-4 {
+  background-color: #004700 !important;
+  border-color: #004700 !important;
+}
+.success--text.text--darken-4 {
+  color: #004700 !important;
+  caret-color: #004700 !important;
+}
+.warning {
+  background-color: #fb8c00 !important;
+  border-color: #fb8c00 !important;
+}
+.warning--text {
+  color: #fb8c00 !important;
+  caret-color: #fb8c00 !important;
+}
+.warning.lighten-5 {
+  background-color: #ffff9e !important;
+  border-color: #ffff9e !important;
+}
+.warning--text.text--lighten-5 {
+  color: #ffff9e !important;
+  caret-color: #ffff9e !important;
+}
+.warning.lighten-4 {
+  background-color: #fffb82 !important;
+  border-color: #fffb82 !important;
+}
+.warning--text.text--lighten-4 {
+  color: #fffb82 !important;
+  caret-color: #fffb82 !important;
+}
+.warning.lighten-3 {
+  background-color: #ffdf67 !important;
+  border-color: #ffdf67 !important;
+}
+.warning--text.text--lighten-3 {
+  color: #ffdf67 !important;
+  caret-color: #ffdf67 !important;
+}
+.warning.lighten-2 {
+  background-color: #ffc24b !important;
+  border-color: #ffc24b !important;
+}
+.warning--text.text--lighten-2 {
+  color: #ffc24b !important;
+  caret-color: #ffc24b !important;
+}
+.warning.lighten-1 {
+  background-color: #ffa72d !important;
+  border-color: #ffa72d !important;
+}
+.warning--text.text--lighten-1 {
+  color: #ffa72d !important;
+  caret-color: #ffa72d !important;
+}
+.warning.darken-1 {
+  background-color: #db7200 !important;
+  border-color: #db7200 !important;
+}
+.warning--text.text--darken-1 {
+  color: #db7200 !important;
+  caret-color: #db7200 !important;
+}
+.warning.darken-2 {
+  background-color: #bb5900 !important;
+  border-color: #bb5900 !important;
+}
+.warning--text.text--darken-2 {
+  color: #bb5900 !important;
+  caret-color: #bb5900 !important;
+}
+.warning.darken-3 {
+  background-color: #9d4000 !important;
+  border-color: #9d4000 !important;
+}
+.warning--text.text--darken-3 {
+  color: #9d4000 !important;
+  caret-color: #9d4000 !important;
+}
+.warning.darken-4 {
+  background-color: #802700 !important;
+  border-color: #802700 !important;
+}
+.warning--text.text--darken-4 {
+  color: #802700 !important;
+  caret-color: #802700 !important;
+}</style>
+<style id="tsbrowser_video_independent_player_style" type="text/css">
+      [tsbrowser_force_max_size] {
+        width: 100% !important;
+        height: 100% !important;
+        left: 0px !important;
+        top: 0px !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        transform: none !important;
+      }
+      [tsbrowser_force_fixed] {
+        position: fixed !important;
+        z-index: 9999 !important;
+        background: black !important;
+      }
+      [tsbrowser_force_hidden] {
+        opacity: 0 !important;
+        z-index: 0 !important;
+      }
+      [tsbrowser_hide_scrollbar] {
+        overflow: hidden !important;
+      }
+      [tsbrowser_display_none] {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+      }
+      [tsbrowser_force_show] {
+        display: black !important;
+        visibility: visible !important;
+        opacity: 0;
+      }</style></head>
+<body>
+<noscript>
+		&lt;strong&gt;We're sorry but my-project doesn't work properly without JavaScript enabled. Please enable it to continue.&lt;/strong&gt;
+	</noscript>
+<div id="app"><div data-app="true" class="application theme--light" id="app" style="font-family: Futura;"><div class="application--wrap"><main class="v-content" style="padding: 0px;" data-booted="true"><div class="v-content__wrap"><div style="padding-bottom: 64px;">
+<div class="content" style="padding: 12px;"><h3 class="text-xs-center" style="margin-bottom: 12px;">Chapter 1.Booking/Collection Description</h3><p><span>Prepayment Booking/Recycling Customer should read and understand the business content carefully before making prepayment bookings (prepayment lock price, payment settlement and shipment) /recovery or repurchase (prepayment lock price, shipping payment) before making prepayment bookings to <text class="dfTxt">LuLu Malls</text>:</span></p><p><span>1. Before making an appointment/restoring the prepayment business, the customer should complete the real name authentication in the mall and ensure that the name, ID number, bank account number, delivery address and other information filled in are true, accurate and valid; Otherwise, the user will be liable for the consequences of false information.</span></p><p><span>2. Customers can order gold and silver products in advance at the shopping centre. Orders can be cancelled by 01:30 a.m. on the same Saturday. When the customer pays the end payment, the mall receives the final payment and arranges the delivery.</span></p><p><span>If the customer does not pay the final pick-up by 01:30 a.m. on Saturday, the customer is deemed to have made the last offer before the inventory and the booking is cancelled.</span></p><p><span>3. Customers can make an appointment to recycle gold and silver products purchased at the gold point. Pre-purchase recovery requires a credit margin and confirmation of actual possession of gold and silver products purchased from the mall. Customers can cancel their reservation at any time before 01:30 on Saturday and the credit mark will be refunded after deducting the increase or decrease in the value of the goods within the corresponding time.</span></p><p><span>If the customer fails to deliver the goods to a shopping mall or shopping center at the designated collection point by Saturday within the same week, or if the goods delivered do not meet the recycling standard test, the customer will be deemed to have cancelled the reservation recovery and will bear the logistics and testing costs.</span></p><p><span>4. Counting time: Daily 01:30-05:30 for the mall warehouse inventory time. During the inventory period, the mall stops accepting advance payments for reservations/receipts.</span></p><p><span>5. For further details, please refer to the Business Guidelines in the front page of the mall, Understanding <text class="dfTxt">LuLu Malls</text>.</span></p><br><h3 class="text-xs-center">Chapter 2 Reveals the business model of <text class="dfTxt">LuLu Malls</text></h3><br><p><span>Booking/repurchase orders, the business model for clearing balance shipments, uncertainties such as potential benefits and potential risks to the value of its merchandise due to real-time fluctuations in the gold and silver market, and the extent to which booking/repo risk stake is understood for customer booking/repo risk, Risk control ability and understanding of related products have high requirements. Customer selects pre-payment booking/repurchase, fully informed on behalf of the customer and understand the risks of prepayments/repurchase business and agree to and accept <text class="dfTxt">LuLu Malls</text> current and future relevant booking/repurchase business processes and management systems (collectively, the Process Systems) to develop, modify and publish. This Risk Disclosure (Disclosure) is intended to fully disclose to the Client the risk of the prepayment booking/repurchase business and is intended only to provide reference for the client to assess and determine its own risk tolerance. The risk disclosures described in this disclosure are for example only. All risk factors associated with <text class="dfTxt">LuLu Malls</text> Advance Booking/Repurchase are not detailed. Customers should also carefully understand and understand other possible risk factors before starting or participating in <text class="dfTxt">LuLu Malls</text> pre-payment booking/repurchase business. If the customer is not aware of or is not aware of this disclosure, they should consult <text class="dfTxt">LuLu Malls</text> Customer Service or the relevant regional service provider in a timely manner. If the Customer ultimately clicks on Risk Disclosure, it is deemed that the Customer fully agrees and accepts the full contents of this disclosure.</span></p><br><p>Warm tips</p><span>1.Minors under the age of 18 are not permitted to participate in The <text class="dfTxt">LuLu Malls</text> Advance Booking/Recycling.</span><p><span>
+2.<text class="dfTxt">LuLu Malls</text> Advance Booking/Repo is only available to customers who meet all of the following criteria:
+<br>① Natural persons with full civil capacity, legal persons of enterprises or other economic organizations registered in accordance with the law.
+</span></p><p><span>② To fully understand all risks associated with <text class="dfTxt">LuLu Malls</text> Advance Booking/Repurchase business and have a certain risk tolerance.</span></p><p><span>③ Have a certain understanding of gold and silver and its products:</span></p><p><span>A. Policy-related risk disclosure, such as changes in national laws, regulations and policies, contingency measures, implementation of appropriate regulatory measures, <text class="dfTxt">LuLu Malls</text> regulatory system and changes in management methods and regulations, etc., all risks that may affect customer bookings/repurchases, etc., the customer must bear the losses incurred.</span></p><p><span>B. Price fluctuations, gold, silver and other precious metals and their accessories are affected by a variety of factors, such as the international economic situation, foreign exchange, related market trends, supply and demand, and political situation and energy prices. The pricing mechanism for gold, silver and other precious metals products is very complex, making it difficult for customers to fully grasp in practice, so decisions such as advance booking/buyback are possible Mistakes, if the risk cannot be effectively controlled, may suffer losses and the customer must bear all the losses incurred as a result.</span></p><p><span>④ <text class="dfTxt">LuLu Malls</text> has enabled the provision of services through electronic communication technology and Internet technology. Communication services and hardware and software services are provided by different vendors and may be at risk in terms of quality and stability. Interruptions or delays due to communication or network failures may affect customer prepayment bookings/repurchases. In addition, the customers computer system may be attacked by viruses and/or cyber-hackers, resulting in the customers advance payment booking/repurchase not being properly and/or timely.</span></p><p><span>
+There is also a risk that the above uncertainties may affect the customer’s advance payment booking/repurchase.
+<br>A. The price quoted by the <text class="dfTxt">LuLu Malls</text> Prepayment Booking/Repo System is based on the systems real-time trading price and may differ slightly from the commodity prices in other markets.
+<br><text class="dfTxt">LuLu Malls</text> cannot guarantee that the above prepayment booking//repurchase price is fully consistent with other markets.
+<br>B. At <text class="dfTxt">LuLu Malls</text>;, once the customers pre-payment booking/repurchase application submitted through the online terminal is completed, it cannot be withdrawn and the customer must accept the risks associated with such a subscription.
+<br>C. <text class="dfTxt">LuLu Malls</text> prohibits regional service providers and their staff from providing any profit guarantee to customers, from engaging in prepaid bookings/repurchases on behalf of customers, or from sharing profits or risks with customers. Customer should be aware that any profit guarantee or commitment that <text class="dfTxt">LuLu Malls</text> advance booking/repurchase does not have a loss, profit share or risk-sharing is impossible, unfounded, and incorrect.
+<br>D. The customers pre-paid booking / repurchase application must be based on the customers own decision. <text class="dfTxt">LuLu Malls</text> and regional service providers and employees do not provide booking / buyback to the client, nor does it constitute any commitment if the client makes a booking / buyback decision accordingly.
+<br>E. In advance booking / buyback process, there may be occasional apparent errors in the offer.
+<br>⑤ RISK-AGREEMENT
+<br>Typhoons, floods, fires, wars, disturbances, rule revisions, changes or adjustments in government regulatory policies and regulatory requirements, and electricity, To ensure that you fully understand the relevant provisions and risks of booking / repurchase business, customers should be based on their own booking experience, booking / repurchase / purchase of commodities, read all the contents of the advance booking / repurchase notice carefully, and fully understand and agree to all the contents, I am willing to take all risks to start or participate in <text class="dfTxt">LuLu Malls</text>. In case of above mentioned condition I shall be him-self liable to any financial as well as monitory loss. By accepting this I shall be no more eligible to claims any statutory legal benefits given to Indian citizen by Law of India.
+<br><br></span></p><p><span>Note: I have carefully read all contents of this app including Privacy Statement, Risk Disclosure Agreement and Risk Agreement and I am agreed to continue with my own risk.</span></p><br><h3 class="text-xs-center" style="margin-bottom: 12px;">Cancellation and refundable Policy</h3><p><span>In case of any discrepancy we can cancel any of the orders placed by you. A few reasons for cancellation from our end usually include limitation of the product in the inventory, error in pricing, error in product information etc. We also have the right to check out for extra information for the purpose of accepting orders in a few cases. We make sure to notify you if in case your order is cancelled partially or completely or if in case any extra data is required for the purpose of accepting your order.</span></p><p><span>Once you place the order, such order can be cancelled from your end before the shipping is undertaken to the destination. Once the request of cancellation for ready for shipping product is received by us, we make sure to refund the amount through the same mode of payment within 5 working days. Cancellation of the order of Gold coin(exchanged by integrals) shall not be accepted as under Company’s policies.</span></p><p><span>We don’t accept Cancellation requests for Smart Buy orders or customized jewellery orders. In specific situations when the customer wants the money back or wants to exchange it with other products, making charges of the product and stone charges, if there is any stone on the product shall be deducted from the payment and balance will be refunded back to customer account within 5 working days.</span></p><p><span>If in case the amount is deducted from your account and the transaction has failed, the same will be refunded back to your account within 72 hours.</span></p></div></div></div></main>
+<script>
+	var getParam = function () {
+		try{
+			var url = window.location.href;
+			var result = url.split("?")[1];
+			var keyValue = result.split("&");
+			var obj = {};
+			for (var i = 0; i < keyValue.length; i++) {
+				var item = keyValue[i].split("=");
+				obj[item[0]] = item[1];
+			}
+			return obj;}
+		catch(e){console.warn("There has no param value!");
+		}
+	};
+	// console.log(getParam());
+	let urlParam=getParam();
+	let txts=document.getElementsByClassName('dfTxt');
+	for(var i = 0;i<txts.length;i++){
+		txts[i].innerHTML=decodeURI(urlParam.type);
+	}
+	
+</script><script defer="" src="./v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon="{&quot;rayId&quot;:&quot;6fbbc6641f169379&quot;,&quot;token&quot;:&quot;0b3a162b3343419b844046404f66a6fd&quot;,&quot;version&quot;:&quot;2021.12.0&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
+</div></div></div></body></html>
